@@ -1,4 +1,4 @@
-let time=60;
+let time=10;
 let score=0;
 let hitval;
 
@@ -13,6 +13,8 @@ document.querySelector(".pbottom").addEventListener("click",function(e){
   }
   
 })
+
+
 function newHit(){
   hitval=Math.floor(Math.random()*10);
   document.querySelector("#newhit").textContent=hitval;
@@ -56,3 +58,11 @@ function timer(){
 makeBubble();
 timer();
 newHit();
+
+
+
+
+
+
+
+
